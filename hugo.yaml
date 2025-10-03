@@ -21,15 +21,12 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - name: Documentation
       pageRef: /docs
       weight: 1
     - name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/Starfruit2210/blocksmith/"
-      weight: 3
     - name: Search
       weight: 4
       params:
@@ -39,11 +36,6 @@ menu:
       url: "https://discord.com/invite/kMUSvP92fh"
       params:
         icon: discord
-    - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
-      params:
-        icon: x-twitter
   sidebar:
     - identifier: more
       name: More

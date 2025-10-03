@@ -6,6 +6,8 @@ next: docs/nextannouncers/markdown
 weight: 2
 ---
 
+You can configure the plugin in the `config.yml` file. according to your needs! And it's very customizeable from the blacklist server to even adding more broadcast!
+
 ## Configuration Section
 
 ```yaml {filename="config.yaml"}
@@ -41,6 +43,8 @@ announcers:
       - "minecraft:block.note_block.pling;0.5;1.0"
 
 ```
+
+You can also change the language of the plugin in the `lang.yml` file. Everything is customizable from the prefix to the messages!
 
 ## Language Section
 
