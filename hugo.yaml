@@ -21,9 +21,6 @@ markup:
 
 menu:
   main:
-    - name: Documentation
-      pageRef: /docs
-      weight: 1
     - name: About
       pageRef: /about
       weight: 2
