@@ -3,7 +3,7 @@ title: Documentation
 next: first-page
 ---
 
-![](mainlogo.jpg)
+![](mainlogo.png)
 
 You can find the documentation of the plugins that we released here!
 
