@@ -5,8 +5,5 @@
   "env": {
     "HUGO_VERSION": "0.151.0",
     "HUGO_ENV": "production"
-  },
-  "rewrites": [
-    { "source": "/", "destination": "/nextannouncers/" }
-  ]
+  }
 }
