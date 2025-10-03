@@ -5,6 +5,8 @@ prev: docs/nextannouncers/
 weight: 1
 ---
 
+![](image.png)
+
 Welcome to the documentation of NextAnnouncers!
 A quick and optimized repeatable broadcast(announcers) to help server owner that has multiple server and doesn't want to change each backend broadcast everytime.
 
