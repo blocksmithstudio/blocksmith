@@ -44,7 +44,12 @@ menu:
       url: "https://twitter.com/"
       params:
         icon: x-twitter
-
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
 params:
   navbar:
     displayTitle: true
