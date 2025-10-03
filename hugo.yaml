@@ -34,11 +34,11 @@ menu:
       weight: 4
       params:
         type: search
-    - name: GitHub
+    - name: Discord
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://discord.com/invite/kMUSvP92fh"
       params:
-        icon: github
+        icon: discord
     - name: Twitter
       weight: 6
       url: "https://twitter.com/"
