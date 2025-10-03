@@ -1,6 +1,8 @@
 ---
 title: Documentation
 next: first-page
+sidebar:
+  open: true
 ---
 
 ![](mainlogo.png)
