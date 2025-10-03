@@ -3,6 +3,7 @@ title: Configuration
 type: docs
 prev: docs/nextannouncers/introduction
 next: docs/nextannouncers/markdown
+weight: 2
 ---
 
 ## Configuration Section
