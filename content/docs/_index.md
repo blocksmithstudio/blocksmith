@@ -3,8 +3,9 @@ title: Documentation
 next: first-page
 ---
 
-You can find the documentation of the plugins that we released here!
+![](mainlogo.jpg)
 
+You can find the documentation of the plugins that we released here!
 
 {{< cards >}} 
     {{< card link="nextannouncers" title="NextAnnouncers" icon="document-duplicate" tag="Free!" tagColor="green" >}} 
