@@ -10,10 +10,10 @@ You can find the documentation of the plugins that we released here!
 {{< cards >}} 
     {{< card link="nextannouncers/_index" title="NextAnnouncers" icon="document-duplicate" tag="Free!" tagColor="green" >}} 
     {{< card link="nextgens" title="NextGens" icon="document-duplicate" tag="Paid" tagColor="yellow" >}} 
-    {{< card link="nextcollectors" title="NextCollectors" icon="document-duplicate" tag="Paid" tagColor="yellow" >}} 
+    {{< card link="playerprofiles" title="PlayerProfiles" icon="document-duplicate" tag="Free!" tagColor="green" >}} 
     {{< card link="nextcredits" title="NextCredits" icon="document-duplicate" tag="Paid" tagColor="yellow" >}} 
     {{< card link="avatardonations" title="AvatarDonations" icon="document-duplicate" tag="Free!" tagColor="green" >}} 
-    {{< card link="playerprofiles" title="PlayerProfiles" icon="document-duplicate" tag="Free!" tagColor="green" >}} 
+    {{< card link="nextcollectors" title="NextCollectors" icon="document-duplicate" tag="Paid" tagColor="yellow" >}} 
 {{< /cards >}}
 
 ## Support
