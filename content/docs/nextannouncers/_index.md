@@ -4,7 +4,5 @@ type: docs
 prev: docs/first-page
 next: docs/nextannouncers/leaf
 sidebar:
-  open: false
+  open: true
 ---
-
-Pages can be organized into folders.
