@@ -1,0 +1,2 @@
+{{- $move := resources.Get "js/move-more.js" | resources.Minify | resources.Fingerprint -}}
+<script src="{{ $move.RelPermalink }}" defer></script>

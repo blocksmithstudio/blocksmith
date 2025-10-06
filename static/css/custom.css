@@ -1,0 +1,42 @@
+/* Parent sidebar yang lu sebut */
+.hx\:flex.hx\:flex-col.hx\:gap-1.hx\:max-md\:hidden {
+  display: grid !important;
+  grid-auto-rows: min-content;
+  row-gap: .25rem;
+}
+
+/* Melebur wrapper biar anak-anak di dalamnya ikut jadi grid items */
+.hx\:flex.hx\:flex-col.hx\:gap-1.hx\:max-md\:hidden > * {
+  display: contents;
+}
+
+/* Jadikan heading (mt-5 + font-semibold) tampil di atas */
+.hx\:flex.hx\:flex-col.hx\:gap-1.hx\:max-md\:hidden [class*="hx\\:mt-5"].hx\\:font-semibold {
+  grid-row: 1 !important;
+  margin-bottom: .5rem;
+  opacity: .95;
+}
+
+/* Blok daftar .open di bawah heading + animasi */
+.hx\:flex.hx\:flex-col.hx\:gap-1.hx\:max-md\:hidden .open {
+  grid-row: 2 !important;
+  transition: transform .25s ease, opacity .25s ease, height .25s ease;
+  transform-origin: top;
+  will-change: transform, opacity, height;
+}
+
+.hx\:flex.hx\:flex-col.hx\:gap-1.hx\:max-md\:hidden .open[aria-expanded="true"],
+.hx\:flex.hx\:flex-col.hx\:gap-1.hx\:max-md\:hidden .open.is-open {
+  transform: scaleY(1);
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+}
+
+.hx\:flex.hx\:flex-col.hx\:gap-1.hx\:max-md\:hidden .open[aria-expanded="false"],
+.hx\:flex.hx\:flex-col.hx\:gap-1.hx\:max-md\:hidden .open.is-closed {
+  transform: scaleY(0);
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}

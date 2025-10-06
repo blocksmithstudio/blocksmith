@@ -1,9 +1,16 @@
 ---
 title: Documentation
+type: docs
 next: first-page
-sidebar:
-  open: true
 ---
+
+## Welcome to BlockSmith Documentation!
+
+
+
+
+
+
 
 ![](mainlogo.png)
 

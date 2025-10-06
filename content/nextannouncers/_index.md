@@ -1,6 +1,8 @@
 ---
 title: NextAnnouncers
-weight: 3
+weight: 2
+sidebar:
+  open: true
 ---
 {{< cards >}} 
     {{< card link="introduction" title="Introduction" icon="document-duplicate" >}} 

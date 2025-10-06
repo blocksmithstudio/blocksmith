@@ -17,9 +17,15 @@ markup:
 
   # enable hextra syntax highlight
   highlight:
-    noClasses: false
+    noClasses: true
 
 menu:
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
   main:
     - name: About
       pageRef: /about
@@ -33,21 +39,32 @@ menu:
       url: "https://discord.com/invite/kMUSvP92fh"
       params:
         icon: discord
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
 
   footer:
     displayCopyright: false
-    displayPoweredBy: true
+    displayPoweredBy: false
+
+  theme:
+    # Force dark mode only
+    default: dark
+    displayToggle: false
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/Starfruit2210/blocksmith/tree/main/content"
+
+  sidebar:
+    # Force manual menu items to appear first
+    manualFirst: true
+
+  theme:
+    default: dark
+    displayToggle: true
+    customCSS:
+      - "css/custom.css"   # <- file di assets/css/custom.css
+    customJS:
+      - "js/move-more.js"
