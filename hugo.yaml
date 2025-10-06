@@ -66,5 +66,3 @@ params:
     displayToggle: true
     customCSS:
       - "css/custom.css"   # <- file di assets/css/custom.css
-    customJS:
-      - "js/move-more.js"
