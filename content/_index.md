@@ -34,4 +34,4 @@ If you need any support, you can join our [Discord Server](https://discord.com/i
 - [NextCollectors](https://www.spigotmc.org/resources/nextcollectors-1-20-1-21-4-optimized-for-large-servers-with-upgrades-transaction-logs-and-more.121517/)
 - [NextCredits](https://www.spigotmc.org/resources/nextcredits-multi-server-sync-unlimited-shops-shop-discounts-unlimited-products-and-more.121672/)
 - [AvatarDonations](https://modrinth.com/plugin/avatardonation)
-- [PlayerProfiles](https://modrinth.com/plugin/playerprofiles) 
+- [PlayerProfiles](https://modrinth.com/plugin/playerprofiles)
